@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="346.0" style="-fx-background-color: #464877; -fx-border-color: #FFA500;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainViewController">
+   <children>
+      <Label layoutX="38.0" layoutY="61.0" style="-fx-background-color: #e6e6e6; -fx-background-radius: 5;">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <graphic>
+            <ImageView fitHeight="95.0" fitWidth="93.0">
+               <image>
+                  <Image url="@file:///C:/temp/ws-javafx/Chaos-simulator/res/gaia.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <GridPane layoutX="173.0" layoutY="63.0" prefHeight="115.0" prefWidth="159.0" AnchorPane.topAnchor="63.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="50.0" minHeight="0.0" prefHeight="24.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="REQ LEV :" textFill="WHITE">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="REQ STR :" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="REQ DEX :" textFill="WHITE" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="REQ INT :" textFill="WHITE" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="REQ LUK :" textFill="WHITE" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="REQ FAM :" textFill="WHITE" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="65" textFill="WHITE" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Monospaced Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Label layoutX="89.0" layoutY="14.0" text="Pink Gaia Cape" textFill="WHITE" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <HBox alignment="TOP_CENTER" layoutX="14.0" layoutY="186.0" prefHeight="35.0" prefWidth="322.0" spacing="3.0">
+         <children>
+            <Label style="-fx-background-color: #222; -fx-background-radius: 5;" text="BEGINNER" textFill="#f59b00">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label style="-fx-background-color: #222; -fx-background-radius: 5;" text="WARRIOR" textFill="#f59b00">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label style="-fx-background-color: #222; -fx-background-radius: 5;" text="MAGICIAN" textFill="#f59b00">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label style="-fx-background-color: #222; -fx-background-radius: 5;" text="BOWMAN" textFill="#f59b00">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label style="-fx-background-color: #222; -fx-background-radius: 5;" text="THIEF" textFill="#f59b00">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </padding>
+            </Label>
+            <Label style="-fx-background-color: #222; -fx-background-radius: 5;" text="PIRATE" textFill="#f59b00">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <padding>
+                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+               </padding>
+            </Label>
+         </children>
+      </HBox>
+      <Separator layoutX="12.0" layoutY="215.0" prefHeight="4.0" prefWidth="322.0" />
+      <VBox layoutX="14.0" layoutY="236.0" prefHeight="125.0" prefWidth="322.0">
+         <children>
+            <HBox prefHeight="22.0" prefWidth="212.0">
+               <children>
+                  <Label text="*" textFill="ORANGE">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="CATEGORY:" textFill="#ffe089">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="CAPE" textFill="WHITE">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="22.0" prefWidth="212.0">
+               <children>
+                  <Label text="*" textFill="ORANGE">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="WEAPON ATTACK:" textFill="#ffe089">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="wA" text="4" textFill="WHITE">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="22.0" prefWidth="212.0">
+               <children>
+                  <Label text="*" textFill="ORANGE">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="WEAPON DEF.:" textFill="#ffe089">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="wDef" text="20" textFill="WHITE">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="22.0" prefWidth="212.0">
+               <children>
+                  <Label text="*" textFill="ORANGE">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="MAGIC DEF.:" textFill="#ffe089">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mDef" text="25" textFill="WHITE">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="22.0" prefWidth="212.0">
+               <children>
+                  <Label text="*" textFill="ORANGE">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label text="NUMBER OF UPGRADES AVAILABLE:" textFill="#ffe089">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="slots" text="5" textFill="WHITE">
+                     <font>
+                        <Font name="Monospaced Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutX="89.0" layoutY="361.0" prefHeight="27.0" prefWidth="169.0" spacing="10.0">
+         <children>
+            <Button fx:id="btCalc" mnemonicParsing="false" onAction="#onBtCalc" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #FF8C00; -fx-border-radius: 5;" text="Chaos it!" textFill="WHITE">
+               <effect>
+                  <DropShadow height="10.0" radius="4.5" spread="0.23" width="10.0">
+                     <color>
+                        <Color red="0.5526315569877625" green="0.34078946709632874" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btCalc1" mnemonicParsing="false" onAction="#resetStatus" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #FF8C00; -fx-border-radius: 5;" text="Reset it!" textFill="WHITE">
+               <effect>
+                  <DropShadow height="10.0" radius="4.5" spread="0.23" width="10.0">
+                     <color>
+                        <Color red="0.5526315569877625" green="0.34078946709632874" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
